@@ -1,0 +1,33 @@
+.modal-user-body {
+  padding: 20px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.input-container label {
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  margin-bottom: 5px;
+}
+
+.input-container input {
+  padding: 10px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: #fffefe;
+  color: #000000;
+}
+
+.input-container input:focus {
+  padding: 10px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: #fffefe;
+  color: #000000;
+}

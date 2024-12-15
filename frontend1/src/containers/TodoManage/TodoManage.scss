@@ -1,0 +1,89 @@
+/* Body styling */
+body {
+  background: #352f5b;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 25px;
+  margin-top: 50px; /* Space from the top */
+  color: #fff;
+}
+
+/* Container styling */
+.container {
+  max-width: 700px;
+  margin: 0 auto; /* Center container */
+}
+
+/* Input styling */
+input[type="text"],
+input[type="text"]:focus {
+  color: #fff;
+  border: none;
+  background: rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  padding: 8px 10px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+/* Header styling */
+header h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.todos li {
+  background: #423a6f;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  margin-bottom: 5px;
+  border-radius: 8px;
+}
+
+/* Header row styling */
+.list-group-item.font-weight-bold {
+  background-color: #427a74;
+  font-size: 23px;
+  color: #ddd;
+  padding: 15px 20px;
+}
+
+.todos li .icon-group,
+.list-group-item.font-weight-bold .col:nth-child(3) {
+  flex: 0.5; /* Actions column */
+  display: flex;
+  justify-content: center;
+}
+
+/* Icon group styling */
+.icon-group {
+  display: flex;
+  gap: 8px; /* Spacing between edit and delete icons */
+}
+
+.icon-group i {
+  cursor: pointer;
+  font-size: 18px;
+  color: #f8d7da;
+  transition: color 0.3s;
+}
+
+.icon-group i:hover {
+  color: #e74c3c; /* Color change on hover */
+}
+.btn {
+  background: #3a6b6f;
+  color: #fff;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-radius: 13px 13px;
+  width: 200px;
+  display: block;
+  margin: 0 auto; /* Căn giữa theo chiều ngang */
+  margin-top: 20px;
+  font-size: 17px;
+}
+.btn:hover {
+  background: #3a6b6f;
+  color: #fff;
+}
