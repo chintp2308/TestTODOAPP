@@ -1,6 +1,6 @@
-#Todo App
+# Todo App
 
-#Giới thiệu
+# Giới thiệu
 
 Todo App là một ứng dụng quản lý danh sách công việc, cho phép người dùng tạo, chỉnh sửa, xóa các nhiệm vụ. Dự án được phát triển nhằm củng cố kiến thức về CRUD với Node.js, React.js, MySQL, Express và API.
 
@@ -8,7 +8,7 @@ Todo App là một ứng dụng quản lý danh sách công việc, cho phép ng
 
 - Công nghệ sử dụng: React.js, Node.js, MySQL, Express
 
-#Chức năng chính
+# Chức năng chính
 
 - Thêm, sửa, xóa, hiển thị danh sách công việc
 
